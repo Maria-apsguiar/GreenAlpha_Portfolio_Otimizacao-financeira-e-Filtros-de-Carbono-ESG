@@ -1,91 +1,106 @@
 <div align="center">
 
-# 🌱⚡ GREENALPHA
-### 〔 O DESPERTAR DA CARTEIRA ESG 〕
-**Temporada 1 · Arco Faria Lima**
+<img src="assets/banner.svg" alt="GreenAlpha - O Despertar da Carteira ESG" width="100%" />
+
+<br/>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/GÊNERO-SHONEN_FINANCEIRO-ff4500?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/ARCO-FARIA_LIMA-purple?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/STATUS-EM_EXIBIÇÃO-gold?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/GÊNERO-DRAMA_URBANO-b98cff?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CENÁRIO-FARIA_LIMA-ff8fb8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/TEMPORADA-1-7dffb2?style=for-the-badge&labelColor=222" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/SciPy-SLSQP-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=flat-square&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/SciPy-SLSQP-8CAAE6?style=flat-square&logo=scipy&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
 </p>
 
-> *"Dizem que sustentabilidade e retorno não cabem na mesma carteira.*
-> *Vamos provar que dizem errado."*
+*"Entre o retorno e o planeta, sempre disseram que era preciso escolher.*
+*E se a resposta estivesse nos dados?"*
+
+<img src="assets/divider.svg" width="100%" />
 
 </div>
 
+## 🎴 FICHA DO ANIME
+
+| | |
+| :--- | :--- |
+| **Título** | GreenAlpha: O Despertar da Carteira ESG |
+| **Gênero** | Drama urbano · Sonhos de carreira · Finanças |
+| **Cenário** | Faria Lima, São Paulo, do amanhecer ao entardecer |
+| **Episódios** | 9 |
+| **Estúdio** | **[Nome da equipe]** |
+| **Fonte original** | Dados reais da B3 e do GHG Protocol |
+| **Clima visual** | Céu de pôr do sol, skyline iluminada, pétalas ao vento |
+| **Trilha sugerida** | Lo-fi e city pop para rodar o script ouvindo |
+
 ---
 
-## 📺 SINOPSE
+## 🌅 SINOPSE
 
-Uma equipe de jovens analistas quantitativos entra na **VerdeValores Asset Management**, na Faria Lima, quando um fundo soberano escandinavo faz uma oferta: administrar **R$ 500 milhões**.
+Numa manhã qualquer na Faria Lima, um grupo de jovens analistas recebe a proposta que pode definir suas carreiras: um fundo soberano escandinavo quer confiar **R$ 500 milhões** a uma carteira que provou ser sustentável de verdade.
 
-Existe uma condição. A carteira precisa ter pegada de carbono auditada **pelo menos 40% menor que a média do mercado**, sem *greenwashing*.
+A condição é clara. A pegada de carbono precisa ser **pelo menos 40% menor que a média do mercado**, com números auditados e sem *greenwashing*.
 
-Contra eles: um CIO cético, um mercado que só olha para o Sharpe e uma pergunta que ninguém consegue responder direito.
-
-**É possível cortar carbono sem cortar retorno?**
+Do outro lado da mesa, um diretor de investimentos experiente e cético. Ele não é vilão. Ele apenas acredita que sustentabilidade tem um custo alto demais. E cabe à equipe responder com dados, em vez de discursos.
 
 ---
 
-## 🎞️ LISTA DE EPISÓDIOS
+## 🎬 EPISÓDIOS
 
-| EP | Título | O que acontece |
+| EP | Título | Cena principal |
 | :-: | :--- | :--- |
-| 01 | [O Contrato de R$ 500 milhões](#-ep-01--o-contrato-de-r-500-milhões) | O desafio e as regras do jogo |
-| 02 | [O Rival Cético](#-ep-02--o-rival-cético) | O CIO diz que a tese é impossível |
-| 03 | [Reunindo os Dados](#-ep-03--reunindo-os-dados) | Cotações da B3 e emissões do GHG Protocol |
-| 04 | [A Técnica Secreta](#-ep-04--a-técnica-secreta) | Otimização convexa com SLSQP |
-| 05 | [O Despertar](#-ep-05--o-despertar) | As três formas da carteira, lado a lado |
-| 06 | [O Painel de Comando](#-ep-06--o-painel-de-comando) | Dashboard no Power BI |
-| 07 | [O Elenco](#-ep-07--o-elenco) | A equipe por trás do projeto |
-| 08 | [Assistir Localmente](#-ep-08--assistir-localmente) | Como rodar o projeto |
-| 09 | [Próximo Episódio](#-ep-09--próximo-episódio) | Roadmap e cena pós-créditos |
+| 01 | **A Proposta** | O contrato e a regra do fundo |
+| 02 | **O Diretor Cético** | A dúvida que o mercado carrega |
+| 03 | **Madrugada nos Dados** | Cotações da B3 e emissões do GHG Protocol |
+| 04 | **A Equação** | Otimização com SLSQP |
+| 05 | **O Resultado** | Três carteiras lado a lado |
+| 06 | **A Cidade em Números** | O dashboard no Power BI |
+| 07 | **Elenco** | Quem fez o projeto |
+| 08 | **Abertura** | Como rodar o projeto |
+| 09 | **Próxima Temporada** | Roadmap e cena pós-créditos |
+
+<div align="center"><img src="assets/divider.svg" width="100%" /></div>
+
+## 🌸 EP 01 · A Proposta
+
+O fundo soberano define três condições:
+
+- 🌱 Pegada de carbono **≥ 40% menor** que a média do mercado
+- 🔍 Emissões **auditáveis**, com fonte pública
+- 📈 Desempenho financeiro que **sustente a tese** diante do conselho
 
 ---
 
-## 🎬 EP 01 · O Contrato de R$ 500 milhões
+## 🌸 EP 02 · O Diretor Cético
 
-O fundo soberano escandinavo impõe a **Regra do Selo Escuro**:
+> **O diretor de investimentos:**
+> *"Reduzir a exposição a Petrobras e Vale vai custar retorno e aumentar a oscilação. O mercado quer resultado, não boas intenções."*
 
-- 🎯 Pegada de carbono **≥ 40% menor** que a média do mercado
-- 🔍 Emissões **auditáveis** (nada de números bonitos sem fonte)
-- 📈 Desempenho financeiro que **sustente a tese** perante o conselho
-
----
-
-## 🎬 EP 02 · O Rival Cético
-
-> **O CIO (rival):**
-> *"Cortar Petrobras e Vale vai destruir o retorno e explodir a volatilidade. O mercado quer resultado, não floresta."*
-
-Todo arco precisa de um rival à altura. O CIO representa a dúvida mais comum do mercado: a de que **ESG é custo**. A missão do time é responder com **dados**, não com discurso.
+A dúvida dele é legítima, e é a mesma que muita gente do mercado tem: **ESG reduz performance?** A equipe decide não discutir e testar.
 
 ---
 
-## 🎬 EP 03 · Reunindo os Dados
+## 🌸 EP 03 · Madrugada nos Dados
+
+Depois do expediente, a equipe monta a base do projeto.
 
 | Fonte | O que traz |
 | :--- | :--- |
-| 📈 **Cotações históricas (Yahoo Finance)** | Preços diários de 10 ativos da B3: `ITUB4`, `VALE3`, `PETR4`, `WEGE3`, `SUZB3`, `CPFE3`, `RENT3`, `VBBR3`, `KLBN11`, `EQTL3` |
+| 📈 **Cotações históricas (Yahoo Finance)** | Preços diários de 10 ativos: `ITUB4`, `VALE3`, `PETR4`, `WEGE3`, `SUZB3`, `CPFE3`, `RENT3`, `VBBR3`, `KLBN11`, `EQTL3` |
 | 🌍 **GHG Protocol** | Emissões de Escopo 1, 2 e 3 e intensidade de carbono (tCO₂e por milhão de receita) |
 
 > ⚠️ *Período analisado, taxa livre de risco e ano-base das emissões: **[PREENCHER]**. Sem isso os números abaixo não são reproduzíveis.*
 
 ---
 
-## 🎬 EP 04 · A Técnica Secreta
+## 🌸 EP 04 · A Equação
 
-O golpe decisivo é a **otimização convexa** via `scipy.optimize` com o método **SLSQP** (*Sequential Least Squares Programming*):
+A resposta vem de uma **otimização convexa** com `scipy.optimize` (método **SLSQP**), que busca o melhor equilíbrio entre retorno e risco:
 
 <div align="center">
 
@@ -93,23 +108,21 @@ $$\max_{w} \; \text{Sharpe} = \frac{w^T \mu - r_f}{\sqrt{w^T \Sigma w}}$$
 
 </div>
 
-**As três regras do Selo:**
+**As três regras da cena:**
 
-| # | Restrição | Significado |
+| # | Restrição | Em palavras simples |
 | :-: | :--- | :--- |
 | 1 | $\sum w_i = 1$ | Todo o capital é alocado |
-| 2 | $0 \le w_i \le 0.30$ | Sem alavancagem; teto de 30% por ativo |
-| 3 | $\sum w_i \cdot \text{Intensidade}_i \le 20.0$ | **Escudo de carbono**: teto rígido de emissão |
+| 2 | $0 \le w_i \le 0.30$ | Nenhum ativo passa de 30% da carteira |
+| 3 | $\sum w_i \cdot \text{Intensidade}_i \le 20.0$ | Teto de carbono da carteira |
 
 ---
 
-## 🎬 EP 05 · O Despertar
-
-Três formas, uma comparação.
+## 🌸 EP 05 · O Resultado
 
 <div align="center">
 
-| Atributo | ⚔️ Forma Base<br>(Max Sharpe) | 🌿 Forma Despertada<br>(**GreenAlpha ESG**) | 🛡️ Forma Defensiva<br>(Min Vol) |
+| | Carteira Clássica<br>(Max Sharpe) | 🌿 **GreenAlpha ESG** | Carteira Defensiva<br>(Min Vol) |
 | :--- | :---: | :---: | :---: |
 | **Retorno anualizado** | 27,66% | **25,92%** | 15,94% |
 | **Volatilidade** | 18,55% | **17,76%** | 14,65% |
@@ -119,18 +132,18 @@ Três formas, uma comparação.
 
 </div>
 
-### ✨ O que a transformação revelou
+### ✨ A cena em três frases
 
-- 🌱 **Carbono cortado em 51,48%**, acima da meta de 40% do fundo
-- 📉 **Volatilidade menor** que a da carteira tradicional (17,76% contra 18,55%)
-- ⚡ **Cerca de 94% do Sharpe preservado** (0,869 contra 0,925)
-- 🔄 O algoritmo reduziu a exposição às petroleiras e direcionou capital para **WEG, CPFL e Itaú**
+- 🌱 O carbono caiu **51,48%**, acima da meta de 40%.
+- 📉 A volatilidade ficou **menor** que a da carteira clássica (17,76% contra 18,55%).
+- ⚖️ Cerca de **94% do Sharpe** foi preservado (0,869 contra 0,925), com capital realocado das petroleiras para **WEG, CPFL e Itaú**.
 
-> **Veredito do arco:** a dúvida do CIO era legítima, mas os dados mostram que, neste recorte, o custo de ser sustentável foi pequeno.
+> Na sala de reunião, o diretor olha os números em silêncio. Depois acena com a cabeça.
+> *Nem toda dúvida precisa de um vencedor. Às vezes só precisa de dados.*
 
 ---
 
-## 🎬 EP 06 · O Painel de Comando
+## 🌸 EP 06 · A Cidade em Números
 
 O dashboard em **Power BI** tem 4 telas:
 
@@ -138,32 +151,53 @@ O dashboard em **Power BI** tem 4 telas:
 | :-: | :--- | :--- |
 | 1 | **Panorama Executivo** | Retorno, risco e alocação por ativo |
 | 2 | **Fronteira Eficiente** | 2.500 simulações de Monte Carlo, coloridas por intensidade de carbono |
-| 3 | **Deep Dive GHG** | Emissões de Escopo 1, 2 e 3 por empresa |
+| 3 | **Radiografia GHG** | Emissões de Escopo 1, 2 e 3 por empresa |
 | 4 | **Simulador What-If** | *Slider* que altera o teto de carbono e recalcula o Sharpe em tempo real |
 
-> 📸 *Espaço reservado para prints ou GIF do dashboard:*
+> 📸 *Espaço para prints ou GIF do dashboard:*
 >
 > `![Panorama Executivo](docs/img/dashboard_tela1.png)`
 > `![Simulador What-If](docs/img/dashboard_whatif.gif)`
 
 ---
 
-## 🎬 EP 07 · O Elenco
+## 🎨 DIREÇÃO DE ARTE
+
+Paleta usada no banner e sugerida para o dashboard, para manter a identidade visual do projeto:
+
+| Cor | Hex | Uso |
+| :--- | :---: | :--- |
+| 🟣 Roxo crepúsculo | `#5A2A8A` | Fundo e títulos |
+| 🌸 Rosa sakura | `#FFC6DC` | Detalhes e destaques suaves |
+| 🌅 Laranja poente | `#FFB46E` | Barra de horizonte, alertas |
+| 🌿 Verde GreenAlpha | `#7DFFB2` | Linha de crescimento e ESG |
+| 🌃 Azul noite | `#160C3A` | Fundo escuro do dashboard |
+
+**Galeria (mood board):** *coloque aqui suas ilustrações originais*
+
+| | | |
+| :---: | :---: | :---: |
+| `assets/arte_01.png` | `assets/arte_02.png` | `assets/arte_03.png` |
+| Skyline ao entardecer | Sala de reunião ao amanhecer | Equipe olhando o dashboard |
+
+---
+
+## 🌸 EP 07 · Elenco
 
 <div align="center">
 
-| Personagem | Papel | Especialidade | Contato |
+| Personagem | Função | Especialidade | Contato |
 | :--- | :--- | :--- | :--- |
-| **[Nome do Membro 1]** | 🧙 Estrategista de Dados | Python, extração do Yahoo Finance, matriz de covariância e otimização SLSQP | [LinkedIn](#) · [GitHub](#) |
-| **[Nome do Membro 2]** | ⛏️ Engenheiro de Base | SQL, Star Schema (`dim_empresa`, `fato_cotacoes`) e consultas de eco-eficiência | [LinkedIn](#) · [GitHub](#) |
-| **[Nome do Membro 3]** | 🎨 Designer de Painel | Power BI, medidas DAX, Fronteira Eficiente e simulador | [LinkedIn](#) · [GitHub](#) |
-| **[Nome do Membro 4]** | 📖 Roteirista | Documentação, pitch no formato **STAR** e validação da tese | [LinkedIn](#) · [GitHub](#) |
+| **[Nome do Membro 1]** | 🧮 A analista de dados | Python, Yahoo Finance, matriz de covariância e SLSQP | [LinkedIn](#) · [GitHub](#) |
+| **[Nome do Membro 2]** | 🗄️ O guardião da base | SQL, Star Schema (`dim_empresa`, `fato_cotacoes`) e consultas de eco-eficiência | [LinkedIn](#) · [GitHub](#) |
+| **[Nome do Membro 3]** | 🎨 A designer do painel | Power BI, medidas DAX, Fronteira Eficiente e simulador | [LinkedIn](#) · [GitHub](#) |
+| **[Nome do Membro 4]** | 📖 O roteirista | Documentação, pitch no formato **STAR** e validação da tese | [LinkedIn](#) · [GitHub](#) |
 
 </div>
 
 ---
 
-## 🎬 EP 08 · Assistir Localmente
+## 🌸 EP 08 · Abertura (Como Rodar)
 
 ```bash
 # 1. Clonar o repositório
@@ -187,6 +221,7 @@ python scripts/build_esg_portfolio_real.py
 **Estrutura do projeto** *(ajuste conforme o seu repositório)*:
 
 ```text
+├── assets/          # banner, divisor e ilustrações
 ├── scripts/
 │   └── build_esg_portfolio_real.py
 ├── data/            # CSVs gerados para o Power BI
@@ -197,22 +232,20 @@ python scripts/build_esg_portfolio_real.py
 
 ---
 
-## 🎬 EP 09 · Próximo Episódio
+## 🌸 EP 09 · Próxima Temporada
 
-**Roadmap da Temporada 2**
-
-- [ ] Ampliar o universo de ativos além dos 10 atuais
-- [ ] Incorporar o índice **ICO2** da B3 como comparativo
+- [ ] Ampliar a carteira além dos 10 ativos atuais
+- [ ] Comparar com o índice **ICO2** da B3
 - [ ] Testar out-of-sample (backtest com janela deslizante)
 - [ ] Incluir custos de transação e rebalanceamento
 
-> 🎥 **Cena pós-créditos:** e se o teto de carbono ficasse ainda mais rígido? O simulador What-If já permite testar.
+> 🎞️ **Cena pós-créditos:** o teto de carbono cai um pouco mais. O simulador What-If já deixa você testar o que acontece.
 
 ---
 
 ## 📚 O Que Eu Aprendi
 
-*(Uma linha por integrante. Recrutadores adoram esta seção.)*
+*(Uma linha por integrante. Recrutadores costumam ler esta seção.)*
 
 - **[Nome 1]:** ...
 - **[Nome 2]:** ...
@@ -227,7 +260,9 @@ Este é um **projeto educacional e de portfólio**. Os resultados são **histór
 
 <div align="center">
 
-**FIM DO EPISÓDIO · Obrigado por assistir 🌱**
+<img src="assets/divider.svg" width="100%" />
+
+**FIM DO EPISÓDIO · Obrigado por assistir 🌸**
 
 ⭐ *Se gostou do projeto, deixe uma estrela no repositório.*
 
