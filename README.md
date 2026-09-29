@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡🗡️ GREENALPHA: O DESPERTAR DA CARTEIRA ESG 📈🔥
+# 🌱🛡️ GREENALPHA: O DESPERTAR DA CARTEIRA ESG ⚡📈
 
 <p align="center">
   <img src="https://img.shields.io/badge/CLASSE-QUANT_ANALYST_DE_ELITE-ff4500?style=for-the-badge&logo=fire&logoColor=white" />
@@ -84,12 +84,29 @@ O centro de operações do jogador foi estruturado em 4 grandes ecrãs holográf
 
 ---
 
-### 🚀 5. Sequência de Invocação (Como Executar o Script)
+### 👥 5. A Guilda: Divisão de Classes e Colaboradores
 
-Para rodar o motor quântico no seu terminal e gerar as relíquias do projeto, execute os comandos:
+Para conquistar esta dungeon de nível S, a nossa party dividiu as tarefas de engenharia financeira e lore do projeto:
+
+<div align="center">
+
+| Classe / Função na Guilda | Nome do Aventureiro(a) | Missão Atribuída / Entrega |
+| :--- | :--- | :--- |
+| **🧙‍♂️ Mago dos Dados (Python & Math)** | *[Nome do Membro 1]* | Feitiços de extração no Yahoo Finance, cálculo da Matriz de Covariância e otimização SLSQP com restrição de carbono[cite: 1]. |
+| **⛏️ Anão Ferreiro (SQL & Database)** | *[Nome do Membro 2]* | Forja do Star Schema (`dim_empresa`, `fato_cotacoes`) e consultas analíticas de eco-eficiencia (*top polluters*)[cite: 1]. |
+| **🎨 Alquimista Visual (Power BI & DAX)** | *[Nome do Membro 3]* | Criação do painel holográfico, medidas DAX, Fronteira Eficiente em dispersão e o simulador interativo[cite: 1]. |
+| **📖 Mestre do Lore (Pitch & Docs)** | *[Nome do Membro 4]* | Redação deste Grimório (`README.md`), estruturação da defesa no formato **STAR** e validação final da tese do fundo[cite: 1]. |
+
+</div>
+
+---
+
+### 🚀 6. Comando de Invocação (Como Executar o Script)
+
+Caso queira rodar o motor quântico localmente na base secreta para gerar os dados do projeto:
 
 ```bash
-# 1. Teletransportar para a base secreta do projeto
+# 1. Teletransportar para a pasta do projeto
 cd "C:\Users\lenovo\Desktop\projetoscopilot\cases gen\case-03-fintech-esg-portfolio"
 
 # 2. Executar o ritual sagrado de otimização matemática com dados reais da B3
