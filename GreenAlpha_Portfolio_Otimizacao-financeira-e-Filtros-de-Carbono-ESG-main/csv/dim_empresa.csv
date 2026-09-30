@@ -1,0 +1,11 @@
+﻿Ticker,Empresa,Setor,Subsetor,Emissoes_Escopo1_tCO2e,Emissoes_Escopo2_tCO2e,Emissoes_Escopo3_tCO2e,Intensidade_Carbono_tCO2e_M,Classificacao_ESG
+ITUB4.SA,Itau Unibanco,Financeiro,Bancos,12500,38000,2400000,1.8,Lider Verde (Baixa Emissao)
+WEGE3.SA,WEG,Bens Industriais,Motores & Energia Eolica,85000,110000,1850000,8.4,Lider Verde (Transicao Energetica)
+RENT3.SA,Localiza,Consumo Ciclico,Aluguel de Frotas,95000,18000,4200000,9.2,Moderada Emissao
+CPFE3.SA,CPFL Energia,Utilidade Publica,Energia Eletrica / Renovaveis,240000,42000,980000,14.5,Moderada Emissao
+EQTL3.SA,Equatorial Energia,Utilidade Publica,Distribuicao Eletrica,310000,55000,1200000,18.2,Moderada Emissao
+KLBN11.SA,Klabin,Materiais Basicos,Papel & Embalagens,890000,120000,1600000,38.5,Intensiva com Remocao
+SUZB3.SA,Suzano,Materiais Basicos,Papel & Celulose,2100000,180000,3100000,48.0,Intensiva com Remocao
+VBBR3.SA,Vibra Energia,Petroleo & Biocombustiveis,Distribuicao,450000,68000,8500000,54.0,Intensiva em Escopo 3
+VALE3.SA,Vale,Materiais Basicos,Mineracao,8900000,540000,89000000,88.0,Alta Intensidade
+PETR4.SA,Petrobras,Petroleo & Gas,Exploracao & Refino,52000000,2100000,380000000,112.0,Altissima Intensidade
