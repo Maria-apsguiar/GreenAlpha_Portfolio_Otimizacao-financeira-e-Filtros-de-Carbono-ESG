@@ -70,7 +70,7 @@
 | Plataforma | Finalidade | Link de Acesso |
 | :--- | :--- | :--- |
 | 🚀 **Web App / Landing Page** | Interface web com apresentação interativa dos resultados | [greenalpha-esg.vercel.app](https://greenalpha-esg.vercel.app/#topo) |
-| 📘 **Documentação Oficial** | Documento executivo, relatórios STAR e fundamentação | [Notion do Projeto GreenAlpha](https://fluff-marten-961.notion.site/Projeto-GreenAlpha-3e9bf9ee0368806b8925c58082896fd8) |
+| 📘 **Documentação Oficial** | Documento executivo, relatórios STAR e fundamentação | [Notion do Projeto GreenAlpha](https://app.notion.com/p/GreenAlpha-ESG-Portfolio-Hub-da-Equipe-22cbf9ee036882d6b56c8145a9a3eabd?source=copy_link) |
 | 📋 **Gestão de Tarefas** | Distribuição de demandas das 4 frentes de trabalho (Kanban) | [Quadro de Atividades no Notion](https://app.notion.com/p/3e9bf9ee03688075acbbf462cf61d036?v=3e9bf9ee0368804d91cc000c7898e8a3&source=copy_link) |
 
 ---
