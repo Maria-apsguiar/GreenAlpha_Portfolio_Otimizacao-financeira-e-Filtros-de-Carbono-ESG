@@ -129,16 +129,19 @@ A equipe provou quantitativamente que o portfólio não apenas atendeu ao mandat
 
 ## 🧮 Formulação Quantitativa & Algoritmo
 
-A modelagem baseia-se na maximização da Razão de Sharpe sobre retornos anualizados com taxa livre de risco de 10,5% a.a. ($r_f$, benchmark Selic/CDI)[cite: 1, 4]:
+A modelagem baseia-se na maximização da Razão de Sharpe sobre retornos anualizados com taxa livre de risco de 10,5% a.a. ($r_f$, benchmark Selic/CDI):
 
-$$\max_{w} \; \text{Sharpe} = \frac{w^T \mu - r_f}{\sqrt{w^T \Sigma w}}$$
+$$\max_{w} \text{Sharpe} = \frac{w^T \mu - r_f}{\sqrt{w^T \Sigma w}}$$
 
 ### Restrições do Sistema
-1. **Alocação Plena:** $\sum_{i=1}^{n} w_i = 1$ (100% do capital distribuído)[cite: 1, 4].
-2. **Sem Alavancagem e Limite Estatutário:** $0 \le w_i \le 0{,}30$ (sem posições vendidas; teto máximo de 30% por ativo para diluição de risco idiossincrático)[cite: 1, 4].
+
+1. **Alocação Plena:** $\sum_{i=1}^{n} w_i = 1$ (100% do capital distribuído).
+2. **Sem Alavancagem e Limite Estatutário:** $0 \le w_i \le 0{,}30$ (sem posições vendidas; teto máximo de 30% por ativo para diluição de risco idiossincrático).
 3. **Restrição Climática Convexa (Teto Verde):**
 
-$$\sum_{i=1}^{n} w_i \cdot \text{Intensidade}_i \le 20{,}0 \text{ tCO}_2\text{e} / \text{R\$M}$$
+$$\sum_{i=1}^{n} w_i \cdot \text{Intensidade}_i \le 20{,}0$$
+
+*(Onde a intensidade média ponderada resultante é limitada ao teto de $20{,}0\text{ tCO}_2\text{e}$ por milhão de reais de receita).*
 
 ---
 
