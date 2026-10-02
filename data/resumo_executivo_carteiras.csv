@@ -1,4 +1,0 @@
-﻿Carteira,Descricao,Retorno_Anualizado_%,Volatilidade_Anualizada_%,Indice_Sharpe,Intensidade_Carbono_tCO2e_M,Reducao_Carbono_vs_Tradicional_%
-Tradicional (Max Sharpe Irrestrito),Otimizacao pura de retorno ajustado ao risco sem limites de emissoes,27.66,18.55,0.925,41.22,0.0
-GreenAlpha ESG (Filtro Verde),Max Sharpe com teto maximo de 20.0 tCO2e/M de receita,25.92,17.76,0.869,20.0,51.48
-Minima Volatilidade (Defensiva),Minimizacao absoluta do desvio padrao da carteira,15.94,14.65,0.371,27.95,32.18
