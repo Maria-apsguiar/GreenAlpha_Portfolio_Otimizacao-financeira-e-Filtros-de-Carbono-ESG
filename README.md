@@ -1,6 +1,3 @@
-Aqui está a versão do **README.md** reformulada para um perfil **estritamente profissional, executivo e técnico de Data Science/Finanças Quantitativas**, eliminando a narrativa de anime e incorporando a identidade visual exata do dashboard (tons de verde-esmeralda, verde-floresta e ardósia visíveis nas telas do Power BI):
-
-```markdown
 <div align="center">
 
 # 🌿 GreenAlpha ESG Portfolio
