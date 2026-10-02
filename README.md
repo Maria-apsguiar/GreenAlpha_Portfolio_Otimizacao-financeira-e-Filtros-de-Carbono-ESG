@@ -1,5 +1,8 @@
 <div align="center">
 
+<!-- Imagem de Destaque / Hero Banner inspirada na identidade do site oficial -->
+<img src="assets/banner_hero.png" alt="GreenAlpha ESG Portfolio Banner" width="100%" />
+
 # 🌿 GreenAlpha ESG Portfolio
 ### Otimização Quantitativa de Ativos & Descarbonização Fiduciária na B3
 
@@ -7,13 +10,26 @@
   <b>Modern Portfolio Theory (Markowitz) · Otimização Convexa SLSQP · Métricas GHG Protocol · Business Intelligence</b>
 </p>
 
+<!-- Acessos Rápidos / Links do Projeto -->
+<p align="center">
+  <a href="https://greenalpha-esg.vercel.app/#topo">
+    <img src="https://img.shields.io/badge/Acessar_Site-Web_App_Vercel-10B981?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://fluff-marten-961.notion.site/Projeto-GreenAlpha-3e9bf9ee0368806b8925c58082896fd8">
+    <img src="https://img.shields.io/badge/Documentação-Notion_Oficial-000000?style=for-the-badge&logo=notion&logoColor=white" />
+  </a>
+  <a href="https://app.notion.com/p/3e9bf9ee03688075acbbf462cf61d036?v=3e9bf9ee0368804d91cc000c7898e8a3&source=copy_link">
+    <img src="https://img.shields.io/badge/Gestão_do_Squad-Kanban_Notion-3B82F6?style=for-the-badge&logo=trello&logoColor=white" />
+  </a>
+</p>
+
 <!-- Badges de Domínio e Status -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Concluído-10B981?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Mercado-B3_Brasil-1E3A34?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Mandato-R$_500M-064E3B?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Meta_Contratual-≥_40%25_CO₂-D97706?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Resultado_Alcançado--51.48%25_CO₂-10B981?style=for-the-badge&labelColor=064E3B" />
+  <img src="https://img.shields.io/badge/Status-Concluído-10B981?style=flat-square" />
+  <img src="https://img.shields.io/badge/Mercado-B3_Brasil-1E3A34?style=flat-square" />
+  <img src="https://img.shields.io/badge/Mandato-R$_500M-064E3B?style=flat-square" />
+  <img src="https://img.shields.io/badge/Meta_Contratual-≥_40%25_CO₂-D97706?style=flat-square" />
+  <img src="https://img.shields.io/badge/Resultado_Alcançado--51.48%25_CO₂-10B981?style=flat-square" />
 </p>
 
 <!-- Badges de Tecnologias / Hard Skills -->
@@ -28,7 +44,7 @@
   <img src="https://img.shields.io/badge/GHG_Protocol-FGVces-22C55E?style=flat-square" />
 </p>
 
-> *"Demonstração empírica de que a imposição de filtros de sustentabilidade rigorosos não destrói a fronteira de eficiência fiduciária: é viável superar a meta contratual de corte de pelo menos 40% de emissões e atingir -51,48% de descarbonização preservando 94% do Índice de Sharpe original."*
+> *"Demonstração empírica de que a imposição de critérios de sustentabilidade auditados não degrada a fronteira de eficiência financeira: superamos a meta de -40% ao alcançar -51,48% de descarbonização, preservando 94% do Índice de Sharpe original."*
 
 ---
 
@@ -36,6 +52,7 @@
 
 ## 📌 Sumário Executivo
 
+- [Ecossistema do Projeto (Links Rápidos)](#-ecossistema-do-projeto)
 - [Visão Geral do Projeto](#-visão-geral-do-projeto)
 - [O Problema de Negócio (Desafio Fiduciário)](#-o-problema-de-negócio-desafio-fiduciário)
 - [Arquitetura de Dados & Modelagem](#-arquitetura-de-dados--modelagem)
@@ -48,29 +65,39 @@
 
 ---
 
+## 🌐 Ecossistema do Projeto
+
+| Plataforma | Finalidade | Link de Acesso |
+| :--- | :--- | :--- |
+| 🚀 **Web App / Landing Page** | Interface web com apresentação interativa dos resultados | [greenalpha-esg.vercel.app](https://greenalpha-esg.vercel.app/#topo) |
+| 📘 **Documentação Oficial** | Documento executivo, relatórios STAR e fundamentação | [Notion do Projeto GreenAlpha](https://fluff-marten-961.notion.site/Projeto-GreenAlpha-3e9bf9ee0368806b8925c58082896fd8) |
+| 📋 **Gestão de Tarefas** | Distribuição de demandas das 4 frentes de trabalho (Kanban) | [Quadro de Atividades no Notion](https://app.notion.com/p/3e9bf9ee03688075acbbf462cf61d036?v=3e9bf9ee0368804d91cc000c7898e8a3&source=copy_link) |
+
+---
+
 ## 🎯 Visão Geral do Projeto
 
-O **GreenAlpha ESG Portfolio** é uma solução de finanças quantitativas desenvolvida para comitês de investimento e gestoras de recursos[cite: 8]. O sistema combina a **Teoria Moderna de Portfólio (Markowitz)** com inventários de emissões do **Programa Brasileiro GHG Protocol (FGVces)** para estruturar carteiras de ativos na B3 que equilibram o retorno ajustado ao risco com a minimização da intensidade média ponderada de carbono[cite: 1, 8].
+O **GreenAlpha ESG Portfolio** é uma solução de finanças quantitativas desenvolvida para comitês de alocação de ativos e gestoras de patrimônio. O sistema integra a **Teoria Moderna de Portfólio (Markowitz)** com inventários de emissões do **Programa Brasileiro GHG Protocol (FGVces)** para estruturar carteiras de ações da B3 que maximizam o retorno ajustado ao risco enquanto minimizam a intensidade média ponderada de poluição corporativa.
 
 ### Principais Entregas
-1. **Pipeline de Dados:** Extração e normalização de séries históricas de cotações diárias (período de 2022 a 2024 via Yahoo Finance) e cruzamento com inventários corporativos oficiais do GHG Protocol (FGVces)[cite: 1, 4, 8].
-2. **Otimizador Numérico SLSQP:** Resolução matemática da fronteira de eficiência de Markowitz via `scipy.optimize.minimize`, aplicando restrições operacionais e teto rígido de carbono[cite: 1, 4].
-3. **Data Warehouse Analítico:** Modelagem dimensional em Star Schema no SQLite (`fintech_esg.db`), permitindo consultas analíticas sobre eco-eficiência, rotação setorial e inventários de escopos corporativos[cite: 1, 4].
-4. **Dashboard de Tomada de Decisão:** Painel de 4 telas em Power BI Desktop com KPIs executivos, Fronteira Eficiente mapeada via Monte Carlo (2.500 iterações), radiografia de emissões corporativas e Simulador What-If interativo[cite: 1, 4, 8].
+1. **Pipeline de Engenharia:** Extração e normalização de séries históricas de cotações diárias (2022 a 2024 via Yahoo Finance) e cruzamento com inventários corporativos oficiais do GHG Protocol (FGVces).
+2. **Otimizador Convexo SLSQP:** Resolução numérica da fronteira de eficiência de Markowitz via `scipy.optimize.minimize`, com restrições operacionais e teto rígido de carbono.
+3. **Data Warehouse Analítico:** Modelagem dimensional Star Schema em SQLite (`fintech_esg.db`), viabilizando análises de eco-eficiência, rotação setorial e inventários de escopos corporativos.
+4. **Dashboard de Tomada de Decisão:** Painel com 4 telas em Power BI Desktop com KPIs executivos, Fronteira Eficiente mapeada via Monte Carlo (2.500 iterações), radiografia de emissões e Simulador What-If interativo.
 
 ---
 
 ## 💼 O Problema de Negócio (Desafio Fiduciário)
 
-A **Verde Valores Asset Management** gere R$ 4 bilhões na Faria Lima e recebeu uma proposta institucional de **R$ 500 milhões** de um fundo soberano de pensão dos países nórdicos[cite: 1, 4]. O mandato estabeleceu uma exigência mandatória:
+A **Verde Valores Asset Management** gere R$ 4 bilhões em ativos e recebeu uma proposta institucional de **R$ 500 milhões** de um dos maiores fundos soberanos de pensão escandinavos. O mandato estabeleceu uma exigência mandatória:
 
-* 🎯 **Meta Solicitada:** A carteira de ações deve apresentar uma intensidade média de emissões de carbono **pelo menos 40% inferior à média do mercado (Carteira Tradicional)**, com comprovação matemática rigorosa e sem margem para *greenwashing*[cite: 1, 4].
+* 🎯 **Meta Solicitada:** A carteira de ações deve apresentar uma intensidade média de emissões de carbono **pelo menos 40% inferior à média do mercado (Carteira Tradicional)**, com comprovação matemática rigorosa e sem margem para *greenwashing*.
 
-### A Objeção do CIO
-O Chief Investment Officer (CIO) tradicional da casa levantou objeções contra o mandato, sustentando que cortar ativos de alto peso e rentabilidade histórica (como Petrobras e Vale) destruiria o retorno anual da carteira e aumentaria a volatilidade do fundo[cite: 1, 4].
+### A Objeção do CIO Tradicional
+A gestão tradicional sustentava que excluir ou reduzir drasticamente papéis de alta rentabilidade histórica e grande liquidez (como Petrobras e Vale) degradaria o retorno global e aumentaria o risco do fundo.
 
 ### A Resposta Empírica
-A equipe provou quantitativamente que o portfólio não apenas atendeu ao mandato como **superou a meta estipulada ao alcançar -51,48% de descarbonização**, operando com menor oscilação de mercado (volatilidade em 17,76% contra 18,55%) e mantendo 94% da relação risco-retorno fiduciária[cite: 1, 3, 4].
+A equipe quantitativa comprovou que o filtro verde não apenas atendeu ao mandato como **superou a meta estipulada ao alcançar -51,48% de descarbonização**, reduzindo a volatilidade do portfólio de 18,55% para 17,76% e mantendo 94% da eficiência fiduciária original (Índice de Sharpe).
 
 ---
 
@@ -112,7 +139,7 @@ A equipe provou quantitativamente que o portfólio não apenas atendeu ao mandat
 ```
 
 ### Universo dos 10 Ativos Analisados
-| Ticker | Empresa | Setor B3 | Intensidade ($tCO_2e/\text{R\$M}$) | Classificação ESG |
+| Ticker | Empresa | Setor B3 | Intensidade (tCO2e / R$ Milhão) | Classificação Climática |
 | :--- | :--- | :--- | :---: | :--- |
 | `ITUB4.SA` | Itaú Unibanco | Financeiro | **1,8** | Líder Verde (Baixa Emissão) |
 | `WEGE3.SA` | WEG | Bens Industriais | **8,4** | Líder Verde (Transição Energética) |
@@ -129,74 +156,78 @@ A equipe provou quantitativamente que o portfólio não apenas atendeu ao mandat
 
 ## 🧮 Formulação Quantitativa & Algoritmo
 
-A modelagem baseia-se na maximização da Razão de Sharpe sobre retornos anualizados com taxa livre de risco de 10,5% a.a. ($r_f$, benchmark Selic/CDI):
+A modelagem baseia-se na maximização da Razão de Sharpe sobre retornos anualizados com taxa livre de risco de 10,5% a.a. (rf, benchmark Selic/CDI):
 
-$$\max_{w} \text{Sharpe} = \frac{w^T \mu - r_f}{\sqrt{w^T \Sigma w}}$$
+> **max_w Sharpe = (w^T * μ - rf) / sqrt(w^T * Σ * w)**
+
+Onde:
+* **w**: vetor de pesos dos ativos na carteira
+* **μ**: vetor de retornos esperados anualizados
+* **rf**: taxa livre de risco (10,5% a.a.)
+* **Σ**: matriz de covariância dos retornos dos ativos
+
+---
 
 ### Restrições do Sistema
 
-1. **Alocação Plena:** $\sum_{i=1}^{n} w_i = 1$ (100% do capital distribuído).
-2. **Sem Alavancagem e Limite Estatutário:** $0 \le w_i \le 0{,}30$ (sem posições vendidas; teto máximo de 30% por ativo para diluição de risco idiossincrático).
-3. **Restrição Climática Convexa (Teto Verde):**
-
-$$\sum_{i=1}^{n} w_i \cdot \text{Intensidade}_i \le 20{,}0$$
-
-*(Onde a intensidade média ponderada resultante é limitada ao teto de $20{,}0\text{ tCO}_2\text{e}$ por milhão de reais de receita).*
+1. **Alocação Plena:** Σ w_i = 1 (100% do capital alocado sem alavancagem).
+2. **Sem Venda a Descoberto e Limite Estatutário:** 0 ≤ w_i ≤ 0,30 (máximo de 30% em um único ativo para diluição de risco idiossincrático).
+3. **Restrição Climática Convexa (Teto Verde):** Σ (w_i × Intensidade_i) ≤ 20,0 tCO2e / R$M.
 
 ---
 
 ## 📊 Resultados Comparativos & Métricas
 
-| Métrica | Tradicional (Max Sharpe Irrestrito) | 🌿 **GreenAlpha ESG (Filtro Verde)** | Mínima Volatilidade (Defensiva) |
+| Métrica | Tradicional (Max Sharpe Irrestrito) | 🌿 GreenAlpha ESG (Filtro Verde) | Mínima Volatilidade (Defensiva) |
 | :--- | :---: | :---: | :---: |
 | **Retorno Anualizado** | 27,66% | **25,92%** | 15,94% |
 | **Volatilidade Anualizada** | 18,55% | **17,76%** | 14,65% |
 | **Índice de Sharpe** | 0,925 | **0,869** | 0,371 |
-| **Intensidade de Carbono ($tCO_2e/M$)** | 41,22 | **20,00** | 27,95 |
+| **Intensidade de Carbono (tCO2e/M)** | 41,22 | **20,00** | 27,95 |
 | **Meta Solicitada de Redução** | *Baseline* | **-40,00%** | - |
-| **Redução Real Atingida** | 0,00% | **-51,48% (Superada)** | -32,18% |
-| **Razão de Eco-Eficiência ($Retorno / Carbono$)** | 0,67 | **1,30 (+94%)** | 0,57 |
+| **Redução Real Atingida** | 0,00% | **-51,48% (Meta Superada)** | -32,18% |
+| **Razão de Eco-Eficiência (Retorno / Carbono)** | 0,67 | **1,30 (+94%)** | 0,57 |
 
 ### Principais Conclusões
-- **Meta Superada com Folga:** O mandato exigia corte de pelo menos **40%** de emissões; o portfólio alcançou **-51,48%** de descarbonização[cite: 1, 3, 4].
-- **Menor Oscilação:** A volatilidade caiu de **18,55% para 17,76%**, refutando a premissa de que filtros socioambientais elevam o risco[cite: 1, 3, 4].
-- **Custo Marginal de Retorno:** Abriu-se mão de apenas 1,74 p.p. de retorno (25,92% vs. 27,66%), preservando **94% do Índice de Sharpe original** (0,869 vs. 0,925)[cite: 1, 3, 4].
-- **Salto em Eco-Eficiência:** A produtividade financeira por emissão subiu **+94%** (de 0,67 para **1,30 p.p. de retorno por tonelada de $CO_2e$**)[cite: 1, 3, 4].
+- **Superação da Meta:** O fundo solicitava um corte de **pelo menos 40%** de emissões; o modelo alcançou **-51,48%**, descarbonizando mais da metade do portfólio.
+- **Risco Reduzido:** A volatilidade caiu de **18,55% para 17,76%**, desmontando a premissa de que restrições ambientais aumentam a instabilidade dos retornos.
+- **Custo Marginal de Retorno:** Abriu-se mão de apenas 1,74 p.p. de retorno (25,92% vs. 27,66%), preservando **94% do Índice de Sharpe original**.
+- **Salto em Eco-Eficiência:** A produtividade do capital por unidade de poluição quase dobrou (+94%), subindo de 0,67 para **1,30 p.p. de retorno por tonelada de CO2e emitida**.
 
 ### Rotação Setorial de Capital
-- **Financiador da Redução:** A exposição em Petrobras (`PETR4.SA`) sofreu desinvestimento de dois terços (-19,61 p.p., caindo de 29,0% para 9,39%)[cite: 1, 3, 4].
-- **Absorção Limpa:** O capital foi alocado no setor Financeiro (`ITUB4.SA`, que subiu de 10,3% para 25,03%) e Utilidade Pública (`CPFE3.SA`, com 5,58%, somada a `EQTL3.SA`, com 30%)[cite: 1, 3, 4].
-- **Resiliência Seletiva:** `RENT3.SA` foi mantida no limite de 30% por conciliar rentabilidade com intensidade moderada (9,2)[cite: 1, 3, 4].
+- **Financiador da Redução:** A exposição em Petrobras (`PETR4.SA`) sofreu desinvestimento de dois terços (-19,61 p.p., caindo de 29,0% para 9,39%).
+- **Absorção Limpa:** O capital migrou para o setor Financeiro (`ITUB4.SA`, que subiu de 10,3% para 25,03%) e Utilidade Pública (`CPFE3.SA`, com 5,58%, somada a `EQTL3.SA`, com 30%).
+- **Resiliência Seletiva:** `RENT3.SA` foi mantida no teto de 30% por sua boa rentabilidade combinada com intensidade carbônica moderada (9,2).
 
 ---
 
 ## 🖥️ Dashboard Executivo (Power BI)
 
-Construído sob a identidade visual corporativa verde-floresta (`#1E3A34`), verde-esmeralda (`#10B981`) e cinza-ardósia (`#64748B`), o painel possui 4 telas analíticas[cite: 1, 2, 4]:
+Construído sob a identidade visual corporativa verde-floresta (`#1E3A34`), verde-esmeralda (`#10B981`) e cinza-ardósia (`#64748B`), o painel possui 4 telas analíticas:
 
 | Tela | Nome | Funcionalidades & Visualizações |
 | :---: | :--- | :--- |
-| **01** | **Panorama Executivo** | Cards com os 4 KPIs centrais, comparativo de barras horizontais entre estratégias e gráfico de barras 100% empilhadas detalhando a decomposição dos pesos por ativo[cite: 1, 2, 4]. |
-| **02** | **Fronteira Eficiente** | Dispersão com as 2.500 iterações de Monte Carlo em gradiente contínuo de carbono e destaque direto dos 3 pontos ótimos (Mínima Volatilidade, Tangência Verde e Tradicional)[cite: 1, 2, 4, 9]. |
-| **03** | **Radiografia de Emissões** | Cards de escopos (Escopo 1: 65 Mi, Escopo 2: 3 Mi, Escopo 3: 493 Mi)[cite: 1, 4], ranking decrescente de emissões totais liderado por Petrobras e Vale, e matriz analítica de ativos[cite: 1, 4, 11]. |
-| **04** | **Simulador What-If** | *Slider* com metas de corte (-10% a -50%), recalculando dinamicamente o teto de carbono elegível e o melhor Sharpe resultante em tempo real[cite: 1, 4, 8]. |
+| **01** | **Panorama Executivo** | Cards com KPIs centrais, comparativo de barras horizontais entre estratégias e gráfico de barras 100% empilhadas detalhando os pesos por ativo. |
+| **02** | **Fronteira Eficiente** | Dispersão com as 2.500 iterações de Monte Carlo em gradiente de carbono e destaque direto dos 3 portfólios ótimos. |
+| **03** | **Radiografia de Emissões** | Cards de escopos (Escopo 1: 65 Mi, Escopo 2: 3 Mi, Escopo 3: 493 Mi), gráfico decrescente de emissões totais e matriz detalhada por ativo. |
+| **04** | **Simulador What-If** | Controle deslizante com metas de corte (-10% a -50%), recalculando dinamicamente o teto de carbono elegível e o melhor Sharpe resultante. |
 
 ---
 
 ## 👥 Equipe e Responsabilidades Técnicas
 
-Estruturação das frentes de trabalho para o time de 8 integrantes[cite: 4, 8]:
+Estruturação das frentes de trabalho para o time de 8 integrantes:
 
 | Integrante | Função no Projeto | Entregáveis Técnicos & Hardskills | Contato |
 | :--- | :--- | :--- | :--- |
-| **[Nome Integrante 1]** | **Engenheiro de Dados** | Extração via API `yfinance`, tratamento de dados de sustentabilidade e modelagem física do Star Schema em SQLite[cite: 4, 8]. | [LinkedIn](#) · [GitHub](#) |
-| **[Nome Integrante 2]** | **Analytics Engineer (SQL)** | Desenvolvimento das queries analíticas de auditoria, rotação setorial e cálculo da métrica de Eco-Eficiência[cite: 1, 4]. | [LinkedIn](#) · [GitHub](#) |
-| **[Nome Integrante 3]** | **Analista Quantitativo** | Cálculo das séries de retornos logarítmicos, anualização de risco e matriz de covariância dos 10 ativos da B3[cite: 1, 4, 8]. | [LinkedIn](#) · [GitHub](#) |
-| **[Nome Integrante 4]** | **Especialista em Otimização** | Formulação de Markowitz com restrição convexa no `scipy.optimize` e parametrização do algoritmo SLSQP[cite: 1, 4]. | [LinkedIn](#) · [GitHub](#) |
-| **[Nome Integrante 5]** | **Especialista em Simulação** | Desenvolvimento do script de Monte Carlo com 2.500 simulações de portfólios para mapeamento da Fronteira Eficiente[cite: 1, 4]. | [LinkedIn](#) · [GitHub](#) |
-| **[Nome Integrante 6]** | **Engenheiro de BI (DAX)** | Modelagem tabular e medidas DAX (`Retorno_Anualizado_%`, `Indice_Sharpe`, `Eco_Eficiencia_Ratio`, formatação condicional)[cite: 1, 4]. | [LinkedIn](#) · [GitHub](#) |
-| **[Nome Integrante 7]** | **Designer de BI & UX/UI** | Desenvolvimento das 4 telas no Power BI Desktop, layout responsivo e configuração do Simulador What-If[cite: 1, 4]. | [LinkedIn](#) · [GitHub](#) |
-| **[Nome Integrante 8]** | **Storytelling & QA Executivo** | Estruturação da metodologia STAR, alinhamento dos dados entre Python/SQL/PBI e documentação do repositório[cite: 1, 4, 8]. | [LinkedIn](#) · [GitHub](#) |
+| **[Nome Integrante 1]** | **Engenheiro de Dados** | Extração via API `yfinance`, tratamento de dados de sustentabilidade e modelagem física do Star Schema em SQLite. | [LinkedIn](#) · [GitHub](#) |
+| **[Nome Integrante 2]** | **Analytics Engineer (SQL)** | Desenvolvimento das queries analíticas de auditoria, rotação setorial e cálculo da métrica de Eco-Eficiência. | [LinkedIn](#) · [GitHub](#) |
+| **[Nome Integrante 3]** | **Analista Quantitativo** | Cálculo das séries de retornos logarítmicos, anualização de risco e matriz de covariância dos 10 ativos da B3. | [LinkedIn](#) · [GitHub](#) |
+| **[Nome Integrante 4]** | **Especialista em Otimização** | Formulação de Markowitz com restrição convexa no `scipy.optimize` e parametrização do algoritmo SLSQP. | [LinkedIn](#) · [GitHub](#) |
+| **[Nome Integrante 5]** | **Especialista em Simulação** | Desenvolvimento do script de Monte Carlo com 2.500 simulações de portfólios para mapeamento da Fronteira Eficiente. | [LinkedIn](#) · [GitHub](#) |
+| **[Nome Integrante 6]** | **Engenheiro de BI (DAX)** | Modelagem tabular e medidas DAX (`Retorno_Anualizado_%`, `Indice_Sharpe`, `Eco_Eficiencia_Ratio`, formatação condicional). | [LinkedIn](#) · [GitHub](#) |
+| **[Nome Integrante 7]** | **Designer de BI & UX/UI** | Desenvolvimento das 4 telas no Power BI Desktop, layout responsivo e configuração do Simulador What-If. | [LinkedIn](#) · [GitHub](#) |
+| **[Nome Integrante 8]** | **Storytelling & QA Executivo** | Estruturação da metodologia STAR, alinhamento dos dados entre Python/SQL/PBI e documentação do repositório. | [LinkedIn](#) · [GitHub](#) |
 
 ---
 
@@ -233,6 +264,8 @@ python scripts/build_esg_portfolio_real.py
 ## 📂 Estrutura do Repositório
 
 ```text
+├── assets/
+│   └── banner_hero.png                    # Imagem de cabeçalho do projeto
 ├── data/
 │   ├── dim_empresa.csv                     # Dimensão de empresas, setores e inventário GHG
 │   ├── fato_cotacoes_diarias.csv          # Histórico de preços diários B3 (2022-2024)
@@ -241,7 +274,7 @@ python scripts/build_esg_portfolio_real.py
 │   ├── fintech_esg.db                      # Banco de dados SQLite relacional
 │   └── resumo_executivo_carteiras.csv     # Tabela consolidada com os KPIs
 ├── docs/
-│   └── img/                               # Demonstrações visuais das 4 telas do Power BI
+│   └── img/                               # Telas capturadas do Power BI
 ├── pbix/
 │   └── GreenAlpha_Dashboard.pbix          # Arquivo do Power BI Desktop
 ├── scripts/
