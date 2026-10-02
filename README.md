@@ -30,11 +30,11 @@
 | | |
 | :--- | :--- |
 | **Título** | GreenAlpha: O Despertar da Carteira ESG |
-| **Gênero** | Drama urbano · Sonhos de carreira · Finanças |
+| **Gênero** | Drama urbano · Finanças Quantitativas · Sustentabilidade |
 | **Cenário** | Faria Lima, São Paulo, do amanhecer ao entardecer |
 | **Episódios** | 9 |
-| **Estúdio** | **[Nome da equipe]** |
-| **Fonte original** | Dados reais da B3 e do GHG Protocol |
+| **Estúdio** | **Verde Valores Asset Management** |
+| **Fonte original** | Cotações da B3 (Yahoo Finance) e Registro Público do GHG Protocol (FGVces) |
 | **Clima visual** | Céu de pôr do sol, skyline iluminada, pétalas ao vento |
 | **Trilha sugerida** | Lo-fi e city pop para rodar o script ouvindo |
 
@@ -42,11 +42,11 @@
 
 ## 🌅 SINOPSE
 
-Numa manhã qualquer na Faria Lima, um grupo de jovens analistas recebe a proposta que pode definir suas carreiras: um fundo soberano escandinavo quer confiar **R$ 500 milhões** a uma carteira que provou ser sustentável de verdade.
+Numa manhã qualquer na Faria Lima, uma equipe de analistas quantitativos recebe a proposta que pode definir suas carreiras: um fundo soberano escandinavo quer confiar **R$ 500 milhões** a uma carteira que provou ser sustentável de verdade.
 
-A condição é clara. A pegada de carbono precisa ser **pelo menos 40% menor que a média do mercado**, com números auditados e sem *greenwashing*.
+A condição é clara: a intensidade média de emissões de carbono precisa ser **pelo menos 40% menor que a média de mercado**, auditada sem margem para *greenwashing*.
 
-Do outro lado da mesa, um diretor de investimentos experiente e cético. Ele não é vilão. Ele apenas acredita que sustentabilidade tem um custo alto demais. E cabe à equipe responder com dados, em vez de discursos.
+Do outro lado da mesa, o Chief Investment Officer (CIO) tradicional e cético. Ele não é vilão — apenas acredita que desinvestir de gigantes como Petrobras e Vale destruirá o retorno fiduciário e elevará a volatilidade. Cabe à equipe responder não com discursos, mas com modelagem matemática rigorosa.
 
 ---
 
@@ -54,53 +54,51 @@ Do outro lado da mesa, um diretor de investimentos experiente e cético. Ele nã
 
 | EP | Título | Cena principal |
 | :-: | :--- | :--- |
-| 01 | **A Proposta** | O contrato e a regra do fundo |
-| 02 | **O Diretor Cético** | A dúvida que o mercado carrega |
-| 03 | **Madrugada nos Dados** | Cotações da B3 e emissões do GHG Protocol |
-| 04 | **A Equação** | Otimização com SLSQP |
-| 05 | **O Resultado** | Três carteiras lado a lado |
-| 06 | **A Cidade em Números** | O dashboard no Power BI |
-| 07 | **Elenco** | Quem fez o projeto |
-| 08 | **Abertura** | Como rodar o projeto |
-| 09 | **Próxima Temporada** | Roadmap e cena pós-créditos |
+| 01 | **A Proposta** | O contrato de R$ 500M e o mandato nórdico |
+| 02 | **O Diretor Cético** | A objeção clássica de risco vs. retorno |
+| 03 | **Madrugada nos Dados** | Cotações diárias (2022–2024) e inventários de emissões |
+| 04 | **A Equação** | Otimização convexa com SLSQP e Markowitz |
+| 05 | **O Resultado** | Três carteiras lado a lado e dominância em Eco-Eficiência |
+| 06 | **A Cidade em Números** | O dashboard analítico de 4 telas no Power BI |
+| 07 | **Elenco** | O time de 8 especialistas por trás da solução |
+| 08 | **Abertura** | Como configurar o ambiente e reproduzir o pipeline |
+| 09 | **Próxima Temporada** | Roadmap futuro e o que aprendemos |
 
 <div align="center"><img src="assets/divider.svg" width="100%" /></div>
 
 ## 🌸 EP 01 · A Proposta
 
-O fundo soberano define três condições:
+O fundo soberano estabelece três condições pétreas:
 
-- 🌱 Pegada de carbono **≥ 40% menor** que a média do mercado
-- 🔍 Emissões **auditáveis**, com fonte pública
-- 📈 Desempenho financeiro que **sustente a tese** diante do conselho
+- 🌱 Intensidade de carbono **≥ 40% menor** em relação à carteira tradicional
+- 🔍 Emissões **auditáveis** com metodologia internacional do GHG Protocol (Escopos 1, 2 e 3)
+- 📈 Desempenho fiduciário que preserve o **retorno ajustado ao risco (Sharpe)** diante do comitê
 
 ---
 
 ## 🌸 EP 02 · O Diretor Cético
 
-> **O diretor de investimentos:**
+> **O Chief Investment Officer:**
 > *"Reduzir a exposição a Petrobras e Vale vai custar retorno e aumentar a oscilação. O mercado quer resultado, não boas intenções."*
 
-A dúvida dele é legítima, e é a mesma que muita gente do mercado tem: **ESG reduz performance?** A equipe decide não discutir e testar.
+A dúvida é legítima e reflete o ceticismo do mercado: **filtros ESG destroem a fronteira de eficiência?** A equipe opta por comprovar a tese empiricamente com dados históricos da B3.
 
 ---
 
 ## 🌸 EP 03 · Madrugada nos Dados
 
-Depois do expediente, a equipe monta a base do projeto.
+A base analítica foi consolidada integrando duas frentes oficiais:
 
-| Fonte | O que traz |
-| :--- | :--- |
-| 📈 **Cotações históricas (Yahoo Finance)** | Preços diários de 10 ativos: `ITUB4`, `VALE3`, `PETR4`, `WEGE3`, `SUZB3`, `CPFE3`, `RENT3`, `VBBR3`, `KLBN11`, `EQTL3` |
-| 🌍 **GHG Protocol** | Emissões de Escopo 1, 2 e 3 e intensidade de carbono (tCO₂e por milhão de receita) |
-
-> ⚠️ *Período analisado, taxa livre de risco e ano-base das emissões: **[PREENCHER]**. Sem isso os números abaixo não são reproduzíveis.*
+| Fonte | Período / Universo | O que traz |
+| :--- | :---: | :--- |
+| 📈 **Yahoo Finance (`yfinance`)** | 03/01/2022 a 30/12/2024 | Cotações diárias de 10 ativos da B3: `ITUB4`, `WEGE3`, `RENT3`, `CPFE3`, `EQTL3`, `KLBN11`, `SUZB3`, `VBBR3`, `VALE3` e `PETR4` |
+| 🌍 **GHG Protocol Brasil (FGVces)** | Ano-base corporativo auditado | Emissões absolutas de Escopo 1, 2 e 3 e Intensidade de Carbono ($tCO_2e$ por milhão de receita) |
 
 ---
 
 ## 🌸 EP 04 · A Equação
 
-A resposta vem de uma **otimização convexa** com `scipy.optimize` (método **SLSQP**), que busca o melhor equilíbrio entre retorno e risco:
+A resposta vem da **Teoria Moderna de Portfólio de Harry Markowitz**, formulada em Python com `scipy.optimize.minimize` pelo algoritmo **SLSQP** (*Sequential Least Squares Programming*), maximizando a razão de Sharpe sob taxa livre de risco de 10,5% a.a. (Selic/CDI):
 
 <div align="center">
 
@@ -110,11 +108,11 @@ $$\max_{w} \; \text{Sharpe} = \frac{w^T \mu - r_f}{\sqrt{w^T \Sigma w}}$$
 
 **As três regras da cena:**
 
-| # | Restrição | Em palavras simples |
-| :-: | :--- | :--- |
-| 1 | $\sum w_i = 1$ | Todo o capital é alocado |
-| 2 | $0 \le w_i \le 0.30$ | Nenhum ativo passa de 30% da carteira |
-| 3 | $\sum w_i \cdot \text{Intensidade}_i \le 20.0$ | Teto de carbono da carteira |
+| # | Restrição | Formulação | Significado no negócio |
+| :-: | :--- | :---: | :--- |
+| 1 | **Alocação Integral** | $\sum w_i = 1$ | 100% do capital alocado sem alavancagem |
+| 2 | **Limite Estatutário** | $0 \le w_i \le 0.30$ | Máximo de 30% por ativo (sem short) para mitigar risco idiossincrático |
+| 3 | **Teto Climático Convexo** | $\sum w_i \cdot \text{Intensidade}_i \le 20.0$ | Teto de emissão ponderada de até $20{,}0\text{ tCO}_2\text{e} / \text{R\$M}$ |
 
 ---
 
@@ -122,76 +120,75 @@ $$\max_{w} \; \text{Sharpe} = \frac{w^T \mu - r_f}{\sqrt{w^T \Sigma w}}$$
 
 <div align="center">
 
-| | Carteira Clássica<br>(Max Sharpe) | 🌿 **GreenAlpha ESG** | Carteira Defensiva<br>(Min Vol) |
+| Métrica | Carteira Clássica<br>(Max Sharpe) | 🌿 **GreenAlpha ESG**<br>(Filtro Verde) | Carteira Defensiva<br>(Mín Volatilidade) |
 | :--- | :---: | :---: | :---: |
 | **Retorno anualizado** | 27,66% | **25,92%** | 15,94% |
-| **Volatilidade** | 18,55% | **17,76%** | 14,65% |
-| **Sharpe Ratio** | 0,925 | **0,869** | 0,371 |
-| **Intensidade de carbono** (tCO₂e/M) | 41,22 | **20,00** | 27,95 |
-| **Redução de carbono** | 0,0% | **-51,48%** | -32,18% |
+| **Volatilidade anualizada** | 18,55% | **17,76%** | 14,65% |
+| **Índice de Sharpe** | 0,925 | **0,869** | 0,371 |
+| **Intensidade de carbono ($tCO_2e/M$)** | 41,22 | **20,00** | 27,95 |
+| **Redução de emissões** | 0,00% | **-51,48%** | -32,18% |
+| **Eco-Eficiência (Retorno / Carbono)** | 0,67 | **1,30** | 0,57 |
 
 </div>
 
 ### ✨ A cena em três frases
 
-- 🌱 O carbono caiu **51,48%**, acima da meta de 40%.
-- 📉 A volatilidade ficou **menor** que a da carteira clássica (17,76% contra 18,55%).
-- ⚖️ Cerca de **94% do Sharpe** foi preservado (0,869 contra 0,925), com capital realocado das petroleiras para **WEG, CPFL e Itaú**.
+- 🌱 **Superação da meta:** A intensidade de carbono caiu **51,48%** (superando com folga os 40% contratuais).
+- 📉 **Risco controlado:** A volatilidade caiu de **18,55% para 17,76%**, desmontando a tese de que critérios ESG aumentam a instabilidade.
+- ⚖️ **Eficiência preservada:** O portfólio manteve **94% do Sharpe** com custo marginal de retorno (25,92% vs. 27,66%), enquanto a **Eco-Eficiência praticamente dobrou (+94%)**, gerando 1,30 p.p. de retorno por tonelada emitida.
 
-> Na sala de reunião, o diretor olha os números em silêncio. Depois acena com a cabeça.
-> *Nem toda dúvida precisa de um vencedor. Às vezes só precisa de dados.*
+> O capital desinvestido de Petrobras (-19,61 p.p.) foi drenado para o setor Financeiro (`ITUB4`, +14,73 p.p.) e Utilidade Pública (`CPFE3` e `EQTL3`), mantendo `RENT3` no teto de 30% por sua boa intensidade relativa.
 
 ---
 
 ## 🌸 EP 06 · A Cidade em Números
 
-O dashboard em **Power BI** tem 4 telas:
+O dashboard executivo em **Power BI Desktop** é estruturado em 4 telas orientadas à decisão:
 
 | Tela | Nome | O que mostra |
 | :-: | :--- | :--- |
-| 1 | **Panorama Executivo** | Retorno, risco e alocação por ativo |
-| 2 | **Fronteira Eficiente** | 2.500 simulações de Monte Carlo, coloridas por intensidade de carbono |
-| 3 | **Radiografia GHG** | Emissões de Escopo 1, 2 e 3 por empresa |
-| 4 | **Simulador What-If** | *Slider* que altera o teto de carbono e recalcula o Sharpe em tempo real |
+| 1 | **Panorama Executivo** | Cards com KPIs centrais, comparativo de estratégias e barras 100% empilhadas de realocação de ativos |
+| 2 | **Fronteira Eficiente ESG** | Dispersão com 2.500 iterações de Monte Carlo com gradiente de intensidade de carbono e os 3 pontos ótimos |
+| 3 | **Deep Dive GHG Protocol** | Matriz detalhada dos 10 ativos com Escopos 1, 2 e 3 e gráfico decrescente de emissões totais |
+| 4 | **Simulador What-If** | Parâmetro dinâmico com *slider* de metas (-10% a -50%) recalculando teto e Sharpe em tempo real |
 
-> 📸 *Espaço para prints ou GIF do dashboard:*
+> 📸 *Espaço para prints ou demonstrações do dashboard:*
 >
 > `![Panorama Executivo](docs/img/dashboard_tela1.png)`
-> `![Simulador What-If](docs/img/dashboard_whatif.gif)`
+> `![Fronteira Eficiente](docs/img/dashboard_tela2.png)`
+> `![Deep Dive GHG Protocol](docs/img/dashboard_tela3.png)`
+> `![Simulador What-If](docs/img/dashboard_tela4.png)`
 
 ---
 
 ## 🎨 DIREÇÃO DE ARTE
 
-Paleta usada no banner e sugerida para o dashboard, para manter a identidade visual do projeto:
+Identidade visual e paleta padronizada aplicada no banner e nos painéis analíticos:
 
-| Cor | Hex | Uso |
+| Cor | Hex | Uso Estratégico |
 | :--- | :---: | :--- |
-| 🟣 Roxo crepúsculo | `#5A2A8A` | Fundo e títulos |
-| 🌸 Rosa sakura | `#FFC6DC` | Detalhes e destaques suaves |
-| 🌅 Laranja poente | `#FFB46E` | Barra de horizonte, alertas |
-| 🌿 Verde GreenAlpha | `#7DFFB2` | Linha de crescimento e ESG |
-| 🌃 Azul noite | `#160C3A` | Fundo escuro do dashboard |
-
-**Galeria (mood board):** *coloque aqui suas ilustrações originais*
-
-| | | |
-| :---: | :---: | :---: |
-| `assets/arte_01.png` | `assets/arte_02.png` | `assets/arte_03.png` |
-| Skyline ao entardecer | Sala de reunião ao amanhecer | Equipe olhando o dashboard |
+| 🟣 Roxo crepúsculo | `#5A2A8A` | Cabeçalhos e identidade visual corporativa |
+| 🌸 Rosa sakura | `#FFC6DC` | Realces suaves, marcações e contrastes |
+| 🌅 Laranja poente | `#FFB46E` | Pontos de atenção, alertas e linha de corte |
+| 🌿 Verde GreenAlpha | `#7DFFB2` | Indicadores de tangência ESG e retorno limpo |
+| 🌃 Azul noite | `#160C3A` | Fundo analítico escuro para visualização de dados |
 
 ---
 
-## 🌸 EP 07 · Elenco
+## 🌸 EP 07 · Elenco (Equipe do Projeto)
 
 <div align="center">
 
-| Personagem | Função | Especialidade | Contato |
+| Integrante | Papel no Projeto | Principais Frentes e Responsabilidades | Contato |
 | :--- | :--- | :--- | :--- |
-| **[Nome do Membro 1]** | 🧮 A analista de dados | Python, Yahoo Finance, matriz de covariância e SLSQP | [LinkedIn](#) · [GitHub](#) |
-| **[Nome do Membro 2]** | 🗄️ O guardião da base | SQL, Star Schema (`dim_empresa`, `fato_cotacoes`) e consultas de eco-eficiência | [LinkedIn](#) · [GitHub](#) |
-| **[Nome do Membro 3]** | 🎨 A designer do painel | Power BI, medidas DAX, Fronteira Eficiente e simulador | [LinkedIn](#) · [GitHub](#) |
-| **[Nome do Membro 4]** | 📖 O roteirista | Documentação, pitch no formato **STAR** e validação da tese | [LinkedIn](#) · [GitHub](#) |
+| **[Nome do Integrante 1]** | 🗄️ Arquiteto de Dados | Modelagem do Star Schema (`dim_empresa`, `fato_cotacoes`), DDL e auditoria de escopos | [LinkedIn](#) · [GitHub](#) |
+| **[Nome do Integrante 2]** | 🔍 Engenheiro de Analytics SQL | Consultas de eco-eficiência, queries de rotação setorial e cálculo de pareto de emissões | [LinkedIn](#) · [GitHub](#) |
+| **[Nome do Integrante 3]** | 📈 Analista Quantitativo | Ingestão via `yfinance`, séries históricas, retornos e cálculo da matriz de covariância | [LinkedIn](#) · [GitHub](#) |
+| **[Nome do Integrante 4]** | 🧮 Especialista em Otimização | Formulação de Markowitz, restrições convexas no `scipy.optimize` e algoritmo SLSQP | [LinkedIn](#) · [GitHub](#) |
+| **[Nome do Integrante 5]** | 🎲 Especialista em Simulação | Geração de Monte Carlo (2.500 iterações) e exportação dos dados da Fronteira Eficiente | [LinkedIn](#) · [GitHub](#) |
+| **[Nome do Integrante 6]** | 📊 Engenheiro de BI (DAX) | Medidas DAX executivas, formatação condicional dinâmica e páginas executivas do Power BI | [LinkedIn](#) · [GitHub](#) |
+| **[Nome do Integrante 7]** | 🎨 Designer de BI & UX/UI | Construção do simulador What-If, dispersão com gradiente de emissões e layout executivo | [LinkedIn](#) · [GitHub](#) |
+| **[Nome do Integrante 8]** | 📖 Storytelling & QA Executivo | Estruturação metodológica STAR, documentação Git/README e validação cruzada dos KPIs | [LinkedIn](#) · [GitHub](#) |
 
 </div>
 
@@ -201,10 +198,10 @@ Paleta usada no banner e sugerida para o dashboard, para manter a identidade vis
 
 ```bash
 # 1. Clonar o repositório
-git clone https://github.com/SEU-USUARIO/GreenAlpha_Portfolio_Otimizacao-financeira-e-Filtros-de-Carbono-ESG.git
+git clone [https://github.com/SEU-USUARIO/GreenAlpha_Portfolio_Otimizacao-financeira-e-Filtros-de-Carbono-ESG.git](https://github.com/SEU-USUARIO/GreenAlpha_Portfolio_Otimizacao-financeira-e-Filtros-de-Carbono-ESG.git)
 cd GreenAlpha_Portfolio_Otimizacao-financeira-e-Filtros-de-Carbono-ESG
 
-# 2. Criar e ativar um ambiente virtual (recomendado)
+# 2. Criar e ativar o ambiente virtual
 python -m venv venv
 # Windows:
 venv\Scripts\activate
@@ -214,56 +211,5 @@ source venv/bin/activate
 # 3. Instalar as dependências
 pip install -r requirements.txt
 
-# 4. Rodar a otimização e gerar as bases para o Power BI
+# 4. Executar a modelagem e gerar as bases analíticas
 python scripts/build_esg_portfolio_real.py
-```
-
-**Estrutura do projeto** *(ajuste conforme o seu repositório)*:
-
-```text
-├── assets/          # banner, divisor e ilustrações
-├── scripts/
-│   └── build_esg_portfolio_real.py
-├── data/            # CSVs gerados para o Power BI
-├── docs/img/        # prints do dashboard
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 🌸 EP 09 · Próxima Temporada
-
-- [ ] Ampliar a carteira além dos 10 ativos atuais
-- [ ] Comparar com o índice **ICO2** da B3
-- [ ] Testar out-of-sample (backtest com janela deslizante)
-- [ ] Incluir custos de transação e rebalanceamento
-
-> 🎞️ **Cena pós-créditos:** o teto de carbono cai um pouco mais. O simulador What-If já deixa você testar o que acontece.
-
----
-
-## 📚 O Que Eu Aprendi
-
-*(Uma linha por integrante. Recrutadores costumam ler esta seção.)*
-
-- **[Nome 1]:** ...
-- **[Nome 2]:** ...
-- **[Nome 3]:** ...
-- **[Nome 4]:** ...
-
----
-
-## ⚠️ Aviso Legal
-
-Este é um **projeto educacional e de portfólio**. Os resultados são **históricos**, dependem do período e das premissas usadas, e **não constituem recomendação de investimento**. Desempenho passado não garante desempenho futuro.
-
-<div align="center">
-
-<img src="assets/divider.svg" width="100%" />
-
-**FIM DO EPISÓDIO · Obrigado por assistir 🌸**
-
-⭐ *Se gostou do projeto, deixe uma estrela no repositório.*
-
-</div>
