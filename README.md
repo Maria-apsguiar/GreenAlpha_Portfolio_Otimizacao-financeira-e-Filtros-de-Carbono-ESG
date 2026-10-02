@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Imagem de Destaque / Hero Banner inspirada na identidade do site oficial -->
-<img src="greenalpha_hero.jpg" alt="GreenAlpha ESG Portfolio Banner" width="50%" />
+<img src="greenalpha_hero.jpg" alt="GreenAlpha ESG Portfolio Banner" width="10%" />
 
 # 🌿 GreenAlpha ESG Portfolio
 ### Otimização Quantitativa de Ativos & Descarbonização Fiduciária na B3
